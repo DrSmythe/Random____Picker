@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4FF7391CC35F1E0052C3C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */; };
+		FF4FF73B1CC35F1E0052C3C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */; };
+		FF4FF73E1CC35F1E0052C3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF73C1CC35F1E0052C3C6 /* Main.storyboard */; };
+		FF4FF7401CC35F1E0052C3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */; };
+		FF4FF7431CC35F1E0052C3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF7411CC35F1E0052C3C6 /* LaunchScreen.storyboard */; };
+		FF4FF74E1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF74D1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift */; };
+		FF4FF7591CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF7581CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4FF74A1CC35F1E0052C3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4FF72D1CC35F1D0052C3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4FF7341CC35F1D0052C3C6;
+			remoteInfo = "RandomFoodPicker!";
+		};
+		FF4FF7551CC35F1E0052C3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4FF72D1CC35F1D0052C3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4FF7341CC35F1D0052C3C6;
+			remoteInfo = "RandomFoodPicker!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4FF7351CC35F1D0052C3C6 /* RandomFoodPicker!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandomFoodPicker!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4FF73D1CC35F1E0052C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4FF7421CC35F1E0052C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4FF7441CC35F1E0052C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4FF7491CC35F1E0052C3C6 /* RandomFoodPicker!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomFoodPicker!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4FF74D1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodPicker_Tests.swift; sourceTree = "<group>"; };
+		FF4FF74F1CC35F1E0052C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4FF7541CC35F1E0052C3C6 /* RandomFoodPicker!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomFoodPicker!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4FF7581CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodPicker_UITests.swift; sourceTree = "<group>"; };
+		FF4FF75A1CC35F1E0052C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4FF7321CC35F1D0052C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7461CC35F1E0052C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7511CC35F1E0052C3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4FF72C1CC35F1D0052C3C6 = {
+			isa = PBXGroup;
+			children = (
+				FF4FF7371CC35F1E0052C3C6 /* RandomFoodPicker! */,
+				FF4FF74C1CC35F1E0052C3C6 /* RandomFoodPicker!Tests */,
+				FF4FF7571CC35F1E0052C3C6 /* RandomFoodPicker!UITests */,
+				FF4FF7361CC35F1D0052C3C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4FF7361CC35F1D0052C3C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF7351CC35F1D0052C3C6 /* RandomFoodPicker!.app */,
+				FF4FF7491CC35F1E0052C3C6 /* RandomFoodPicker!Tests.xctest */,
+				FF4FF7541CC35F1E0052C3C6 /* RandomFoodPicker!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4FF7371CC35F1E0052C3C6 /* RandomFoodPicker! */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */,
+				FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */,
+				FF4FF73C1CC35F1E0052C3C6 /* Main.storyboard */,
+				FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */,
+				FF4FF7411CC35F1E0052C3C6 /* LaunchScreen.storyboard */,
+				FF4FF7441CC35F1E0052C3C6 /* Info.plist */,
+			);
+			path = "RandomFoodPicker!";
+			sourceTree = "<group>";
+		};
+		FF4FF74C1CC35F1E0052C3C6 /* RandomFoodPicker!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF74D1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift */,
+				FF4FF74F1CC35F1E0052C3C6 /* Info.plist */,
+			);
+			path = "RandomFoodPicker!Tests";
+			sourceTree = "<group>";
+		};
+		FF4FF7571CC35F1E0052C3C6 /* RandomFoodPicker!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FF7581CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift */,
+				FF4FF75A1CC35F1E0052C3C6 /* Info.plist */,
+			);
+			path = "RandomFoodPicker!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4FF7341CC35F1D0052C3C6 /* RandomFoodPicker! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4FF75D1CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!" */;
+			buildPhases = (
+				FF4FF7311CC35F1D0052C3C6 /* Sources */,
+				FF4FF7321CC35F1D0052C3C6 /* Frameworks */,
+				FF4FF7331CC35F1D0052C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandomFoodPicker!";
+			productName = "RandomFoodPicker!";
+			productReference = FF4FF7351CC35F1D0052C3C6 /* RandomFoodPicker!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4FF7481CC35F1E0052C3C6 /* RandomFoodPicker!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4FF7601CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!Tests" */;
+			buildPhases = (
+				FF4FF7451CC35F1E0052C3C6 /* Sources */,
+				FF4FF7461CC35F1E0052C3C6 /* Frameworks */,
+				FF4FF7471CC35F1E0052C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4FF74B1CC35F1E0052C3C6 /* PBXTargetDependency */,
+			);
+			name = "RandomFoodPicker!Tests";
+			productName = "RandomFoodPicker!Tests";
+			productReference = FF4FF7491CC35F1E0052C3C6 /* RandomFoodPicker!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4FF7531CC35F1E0052C3C6 /* RandomFoodPicker!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4FF7631CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!UITests" */;
+			buildPhases = (
+				FF4FF7501CC35F1E0052C3C6 /* Sources */,
+				FF4FF7511CC35F1E0052C3C6 /* Frameworks */,
+				FF4FF7521CC35F1E0052C3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4FF7561CC35F1E0052C3C6 /* PBXTargetDependency */,
+			);
+			name = "RandomFoodPicker!UITests";
+			productName = "RandomFoodPicker!UITests";
+			productReference = FF4FF7541CC35F1E0052C3C6 /* RandomFoodPicker!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4FF72D1CC35F1D0052C3C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Smythe Labs";
+				TargetAttributes = {
+					FF4FF7341CC35F1D0052C3C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T55CFW45FY;
+					};
+					FF4FF7481CC35F1E0052C3C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T55CFW45FY;
+						TestTargetID = FF4FF7341CC35F1D0052C3C6;
+					};
+					FF4FF7531CC35F1E0052C3C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T55CFW45FY;
+						TestTargetID = FF4FF7341CC35F1D0052C3C6;
+					};
+				};
+			};
+			buildConfigurationList = FF4FF7301CC35F1D0052C3C6 /* Build configuration list for PBXProject "RandomFoodPicker!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4FF72C1CC35F1D0052C3C6;
+			productRefGroup = FF4FF7361CC35F1D0052C3C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4FF7341CC35F1D0052C3C6 /* RandomFoodPicker! */,
+				FF4FF7481CC35F1E0052C3C6 /* RandomFoodPicker!Tests */,
+				FF4FF7531CC35F1E0052C3C6 /* RandomFoodPicker!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4FF7331CC35F1D0052C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4FF7431CC35F1E0052C3C6 /* LaunchScreen.storyboard in Resources */,
+				FF4FF7401CC35F1E0052C3C6 /* Assets.xcassets in Resources */,
+				FF4FF73E1CC35F1E0052C3C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7471CC35F1E0052C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7521CC35F1E0052C3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4FF7311CC35F1D0052C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4FF73B1CC35F1E0052C3C6 /* ViewController.swift in Sources */,
+				FF4FF7391CC35F1E0052C3C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7451CC35F1E0052C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4FF74E1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4FF7501CC35F1E0052C3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4FF7591CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4FF74B1CC35F1E0052C3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4FF7341CC35F1D0052C3C6 /* RandomFoodPicker! */;
+			targetProxy = FF4FF74A1CC35F1E0052C3C6 /* PBXContainerItemProxy */;
+		};
+		FF4FF7561CC35F1E0052C3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4FF7341CC35F1D0052C3C6 /* RandomFoodPicker! */;
+			targetProxy = FF4FF7551CC35F1E0052C3C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4FF73C1CC35F1E0052C3C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4FF73D1CC35F1E0052C3C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4FF7411CC35F1E0052C3C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4FF7421CC35F1E0052C3C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4FF75B1CC35F1E0052C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4FF75C1CC35F1E0052C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4FF75E1CC35F1E0052C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RandomFoodPicker!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4FF75F1CC35F1E0052C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RandomFoodPicker!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF4FF7611CC35F1E0052C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RandomFoodPicker!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomFoodPicker!.app/RandomFoodPicker!";
+			};
+			name = Debug;
+		};
+		FF4FF7621CC35F1E0052C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RandomFoodPicker!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomFoodPicker!.app/RandomFoodPicker!";
+			};
+			name = Release;
+		};
+		FF4FF7641CC35F1E0052C3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RandomFoodPicker!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RandomFoodPicker!";
+			};
+			name = Debug;
+		};
+		FF4FF7651CC35F1E0052C3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RandomFoodPicker!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RandomFoodPicker!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4FF7301CC35F1D0052C3C6 /* Build configuration list for PBXProject "RandomFoodPicker!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4FF75B1CC35F1E0052C3C6 /* Debug */,
+				FF4FF75C1CC35F1E0052C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4FF75D1CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4FF75E1CC35F1E0052C3C6 /* Debug */,
+				FF4FF75F1CC35F1E0052C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF4FF7601CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4FF7611CC35F1E0052C3C6 /* Debug */,
+				FF4FF7621CC35F1E0052C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF4FF7631CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4FF7641CC35F1E0052C3C6 /* Debug */,
+				FF4FF7651CC35F1E0052C3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4FF72D1CC35F1D0052C3C6 /* Project object */;
+}
