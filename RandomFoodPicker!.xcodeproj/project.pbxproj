@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1886DB1CC701B500622150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1886DA1CC701B500622150 /* Assets.xcassets */; };
 		FF4FF7391CC35F1E0052C3C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */; };
 		FF4FF73B1CC35F1E0052C3C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */; };
 		FF4FF73E1CC35F1E0052C3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF73C1CC35F1E0052C3C6 /* Main.storyboard */; };
-		FF4FF7401CC35F1E0052C3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */; };
 		FF4FF7431CC35F1E0052C3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4FF7411CC35F1E0052C3C6 /* LaunchScreen.storyboard */; };
 		FF4FF74E1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF74D1CC35F1E0052C3C6 /* RandomFoodPicker_Tests.swift */; };
 		FF4FF7591CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF7581CC35F1E0052C3C6 /* RandomFoodPicker_UITests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF1886DA1CC701B500622150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		FF4FF7351CC35F1D0052C3C6 /* RandomFoodPicker!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandomFoodPicker!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF4FF73D1CC35F1E0052C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4FF7421CC35F1E0052C3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4FF7441CC35F1E0052C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4FF7491CC35F1E0052C3C6 /* RandomFoodPicker!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RandomFoodPicker!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,8 +100,8 @@
 				FF4FF7381CC35F1E0052C3C6 /* AppDelegate.swift */,
 				FF4FF73A1CC35F1E0052C3C6 /* ViewController.swift */,
 				FF4FF73C1CC35F1E0052C3C6 /* Main.storyboard */,
-				FF4FF73F1CC35F1E0052C3C6 /* Assets.xcassets */,
 				FF4FF7411CC35F1E0052C3C6 /* LaunchScreen.storyboard */,
+				FF1886DA1CC701B500622150 /* Assets.xcassets */,
 				FF4FF7441CC35F1E0052C3C6 /* Info.plist */,
 			);
 			path = "RandomFoodPicker!";
@@ -187,6 +187,7 @@
 		FF4FF72D1CC35F1D0052C3C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Smythe Labs";
@@ -233,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF4FF7431CC35F1E0052C3C6 /* LaunchScreen.storyboard in Resources */,
-				FF4FF7401CC35F1E0052C3C6 /* Assets.xcassets in Resources */,
+				FF1886DB1CC701B500622150 /* Assets.xcassets in Resources */,
 				FF4FF73E1CC35F1E0052C3C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "RandomFoodPicker!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-";
@@ -413,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "RandomFoodPicker!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.RandomFoodPicker-";
@@ -485,6 +488,7 @@
 				FF4FF75F1CC35F1E0052C3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4FF7601CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +497,7 @@
 				FF4FF7621CC35F1E0052C3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4FF7631CC35F1E0052C3C6 /* Build configuration list for PBXNativeTarget "RandomFoodPicker!UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +506,7 @@
 				FF4FF7651CC35F1E0052C3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
